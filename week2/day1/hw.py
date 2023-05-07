@@ -31,4 +31,5 @@ else: ("u r not my bro, sorry", ur_name)
 height_inch=2.54*int(input("please enter ur height in inches"))
 if(height_inch>=145):
     print("u r high enough to ride")
-else:print("u r too short, go cath a bus")
+else:print("u r too short, go catch a bus")
+
