@@ -1,0 +1,34 @@
+section{
+    border: 0.5rem solid red;
+    background-color: white;
+    height: 40vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+
+
+}
+.class1{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.class2{
+    width: 50%;
+    align-self: center;
+    color: white;
+    text-align: center;
+}
+.class3{
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+div{
+    border: 0.2rem solid black;
+    background-color: blue;
+    font-size: 2rem;
+}
