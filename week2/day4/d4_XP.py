@@ -47,3 +47,23 @@
 
 #the_great(magician_names)
 #show_magicians(magician_names)
+import random
+#7
+def get_random_temp():
+    random_temp=random.randint(-10, 40)
+    # print(random_temp)
+    return random_temp
+get_random_temp()
+
+def main():
+    temperature=get_random_temp()
+    print('the temperature is now set to',temperature,'degrees celcium')
+    if temperature<0:
+        print('that is sooooo cold')
+    if 0>temperature>16:
+        print('its ok, but better take some jacket')
+    if 16>= temperature>23:
+        print('its awesome outside')
+    else: 
+        print('its summer')
+main()
