@@ -33,17 +33,19 @@
 
 
 #5
-from datetime import datetime
+# from datetime import datetime
 
-def time_left_until_january1():
-    current_date = datetime.now().date()
-    january1 = datetime(current_date.year + 1, 1, 1)  # January 1st of the next year
-    time_left = january1 - datetime.now()
-    days = time_left.days
-    hours, remainder = divmod(time_left.seconds, 3600)
-    minutes, seconds = divmod(remainder, 60)
+# def time_left_until_january1():
+#     current_date = datetime.now().date()
+#     january1 = datetime(current_date.year + 1, 1, 1)  # January 1st of the next year
+#     time_left = january1 - datetime.now()
+#     days = time_left.days
+#     hours, remainder = divmod(time_left.seconds, 3600)
+#     minutes, seconds = divmod(remainder, 60)
 
-    print(f"The 1st of January is in {days} days and {hours:02d}:{minutes:02d}:{seconds:02d} hours.")
+#     print(f"The 1st of January is in {days} days and {hours:02d}:{minutes:02d}:{seconds:02d} hours.")
 
-# Example usage
-time_left_until_january1()
+# # Example usage
+# time_left_until_january1()
+
+
